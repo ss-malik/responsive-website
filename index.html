@@ -14,7 +14,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-white px-4">
+    <nav class="navbar navbar-expand-lg bg-white px-4 fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Brand<span class="text-primary"> Logo</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,27 +23,27 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-primary" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-primary" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">SEO</a></li>
-                <li><a class="dropdown-item" href="#">Web Design</a></li>
+                <li><a class="dropdown-item" href="#services">SEO</a></li>
+                <li><a class="dropdown-item" href="#services">Web Design</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Apps Design</a></li>
+                <li><a class="dropdown-item" href="#services">Apps Design</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Team</a>
+              <a class="nav-link" href="#team">Our Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -51,7 +51,7 @@
     </nav>
   </header>
 
-  <section>
+  <section id="home">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -93,7 +93,7 @@
   </section>
 
 
-  <section class="my-5">
+  <section class="my-5" id="about">
     <div class="container">
       <div class="section-heading text-center my-4">
         <h2>About <span class="text-primary">Us</span></h2>
@@ -152,7 +152,7 @@
     </div>
   </section>
   
-  <section class="services bg-light py-5">
+  <section class="services bg-light py-5" id="services">
     <div class="container">
       <div class="section-heading text-center my-4">
         <h2>Our <span class="text-primary">services</span></h2>
@@ -228,7 +228,7 @@
     
   </section>
   
-  <section class="team my-4">
+  <section class="team my-4" id="team">
     <div class="container">
       <div class="section-heading text-center my-4">
         <h2>Our <span class="text-primary">team</span></h2>
@@ -274,7 +274,7 @@
     
   </section>
   
-  <section class="contact my-4 p-5">
+  <section class="contact my-4 p-5" id="contact">
     <div class="container">
       <div class="section-heading text-center my-4 mb-4">
         <h2>Feel free <span class="text-primary">to connect</span></h2>
@@ -335,7 +335,7 @@
   </section>
   
   
-  <section class="footer p-3 bg-primary text-white text-center fs-4">
+  <section class="footer p-3 bg-primary text-white text-center fs-4" >
     Created by ssmalik
   </section>
   
