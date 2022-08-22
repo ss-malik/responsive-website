@@ -6,17 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/36d5c4f503.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>RESponsive website bootstrap hands on</title>
 </head>
+
+
 <body>
   <header>
     <nav class="navbar navbar-expand-lg bg-white px-4 fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Brand<span class="text-primary"> Logo</span></a>
+        <a class="navbar-brand" href="#"><h1>Brand<span class="text-primary"> Logo</span></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -95,12 +99,12 @@
 
   <section class="my-5" id="about">
     <div class="container">
-      <div class="section-heading text-center my-4">
-        <h2>About <span class="text-primary">Us</span></h2>
+      <div class="section-heading text-center my-4" data-aos="fade-down" data-aos-offset="200">
+        <h2 >About <span class="text-primary">Us</span></h2>
         <hr class="border-bottom w-25 mx-auto">
       </div>
       <div class="row justify-content-between">
-        <div class="col-md-6">
+        <div class="col-md-6 mt-2" data-aos="fade-right" data-aos-offset="200">
           <h1>What do you <span class="text-primary"> want to know?</span> </h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolorem delectus ad accusamus, illum eligendi praesentium ullam asperiores est omnis possimus impedit odit earum nihil temporibus ducimus, fugiat, debitis ratione?</p>
           <button type="button" class="btn btn-primary mb-3">More about us</button>
@@ -144,7 +148,7 @@
           </div>
         </div>
         
-        <div class="col-md-6 m-auto text-end d-none d-md-block">
+        <div class="col-md-6 m-auto text-end d-none d-md-block" data-aos="fade-left" data-aos-offset="200">
           <img src="./assets/images/s1.jpg" class="img-fluid img-thumbnail " alt="">
           
         </div>
@@ -154,13 +158,13 @@
   
   <section class="services bg-light py-5" id="services">
     <div class="container">
-      <div class="section-heading text-center my-4">
+      <div class="section-heading text-center my-4" data-aos="fade-down" data-aos-offset="200">
         <h2>Our <span class="text-primary">services</span></h2>
         <hr class="border-bottom w-25 mx-auto">
       </div>
       
-      <div class="row">
-        <div class="col-md-4">
+      <div class="row mt-3" data-aos="fade-right" data-aos-offset="200">
+        <div class="col-md-4" >
           <div class="card">
             <div class="card-body">
               <i class="fa fa-users bg-primary text-white p-2 rounded mb-1"></i>
@@ -192,7 +196,7 @@
         </div>
         
       </div>
-      <div class="row mt-4">
+      <div class="row mt-4" data-aos="fade-left" data-aos-offset="200">
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
@@ -230,13 +234,13 @@
   
   <section class="team my-4" id="team">
     <div class="container">
-      <div class="section-heading text-center my-4">
+      <div class="section-heading text-center my-4" data-aos="fade-down" data-aos-offset="200">
         <h2>Our <span class="text-primary">team</span></h2>
         <hr class="border-bottom w-25 mx-auto">
       </div>
       
       <div class="row text-center">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-left" data-aos-offset="200">
           <div class="card">
             <div class="card-body">
               <img src="./assets/images/s3.jpg" class="img-fluid rounded-circle w-75 border border-primary p-1" alt="">
@@ -247,7 +251,7 @@
           </div>
         </div>
         
-        <div class="col-md-4">
+        <div class="col-md-4"  data-aos="flip-up" data-aos-offset="200">
           <div class="card">
             <div class="card-body">
               <img src="./assets/images/s5.jpg" class="img-fluid rounded-circle w-75 border border-primary p-1" alt="">
@@ -258,7 +262,7 @@
           </div>
         </div>
         
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-right" data-aos-offset="200">
           <div class="card">
             <div class="card-body">
               <img src="./assets/images/s2.jpg" class="img-fluid rounded-circle w-75 border border-primary p-1" alt="" >
@@ -276,12 +280,12 @@
   
   <section class="contact my-4 p-5" id="contact">
     <div class="container">
-      <div class="section-heading text-center my-4 mb-4">
+      <div class="section-heading text-center my-4 mb-4" data-aos="fade-down" data-aos-offset="200">
         <h2>Feel free <span class="text-primary">to connect</span></h2>
         <hr class="border-bottom w-25 mx-auto">
       </div>
       
-      <div class="row justify-content-between mt-5">
+      <div class="row justify-content-between mt-5" data-aos="zoom-in" data-aos-offset="200">
         <div class="col-md-7">
           <form class="row g-3">
             <div class="col-md-6">
@@ -326,7 +330,7 @@
           </form>
 
         </div>
-        <div class="col-md-5 m-auto text-md-end text-center d-none d-md-block">
+        <div class="col-md-5 m-auto text-md-end text-center d-none d-md-block" data-aos="zoom-in" data-aos-offset="200">
           <img src="./assets/images/s6.jpg" class="img-fluid img-thumbnail p-2 w-75" alt="dummy-image-of-website owner">
 
         </div>
@@ -345,5 +349,12 @@
   
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>
